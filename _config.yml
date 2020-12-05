@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 
-  username               : "adam" 
+  username               : &twitter
 facebook:
   username               :
   app_id                 :
