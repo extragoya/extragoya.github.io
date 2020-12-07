@@ -51,7 +51,8 @@ publist = {
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+                        "permalink":"/publications/",
+                        "save_path": "_publications"}
     } ,
 
     "proceeding": {
@@ -59,7 +60,8 @@ publist = {
         "venuekey": "booktitle",
         "venue-pretext": "In the proceedings of ",
         "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+                        "permalink":"/conference_proceedings/",
+                        "save_path": "_conference_proceedings"}
         
     }
 
@@ -140,7 +142,8 @@ for pubsource in publist:
             md += """collection: """ +  publist[pubsource]["collection"]["name"]
 
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
-            
+           
+            save_path = publist[pubsource]["collection"]["save_path"]
             note = False
             if "note" in b.keys():
                 if len(str(b["note"])) > 5:
@@ -173,7 +176,7 @@ for pubsource in publist:
 
             md_filename = os.path.basename(md_filename)
 
-            with open("../_publications/" + md_filename, 'w') as f:
+            with open("../" + save_path + "/" + md_filename, 'w') as f:
                 f.write(md)
             print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
         # field may not exist for a reference
