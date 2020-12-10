@@ -60,8 +60,8 @@ publist = {
         "venuekey": "booktitle",
         "venue-pretext": "In the proceedings of ",
         "collection" : {"name":"publications",
-                        "permalink":"/conference_proceedings/",
-                        "save_path": "_conference_proceedings"}
+                        "permalink":"/proceedings/",
+                        "save_path": "_proceedings"}
         
     }
 
@@ -124,9 +124,21 @@ for pubsource in publist:
 
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
+                middle = ""
+                if len(author.middle_names):
+                    middle = author.middle_names[0]
+                if author.first_names[0] == 'Adam' and author.last_names[0] == 'Harrison':
+                    if middle != "":
+                        citation = citation+" <b>"+author.first_names[0]+" "+middle+" "+author.last_names[0]+"<b>, "
+                    else:
 
-                citation = citation+" "+author.first_names[0]+" "+author.middle_names+" "+author.last_names[0]+", "
+                        citation = citation+" <b>"+author.first_names[0]+" "+author.last_names[0]+"<b>, "
+                else:
+                    if middle != "": 
+                        citation = citation+" "+author.first_names[0]+" "+middle+" "+author.last_names[0]+", "
+                    else:
 
+                        citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
 
