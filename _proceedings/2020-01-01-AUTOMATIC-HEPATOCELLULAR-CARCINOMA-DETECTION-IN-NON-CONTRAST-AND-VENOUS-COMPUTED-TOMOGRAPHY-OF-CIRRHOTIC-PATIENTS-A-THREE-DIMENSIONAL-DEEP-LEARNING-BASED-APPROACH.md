@@ -5,6 +5,6 @@ permalink: /proceedings/2020-01-01-AUTOMATIC-HEPATOCELLULAR-CARCINOMA-DETECTION-
 date: 2020-01-01
 author:  Wei Teng,  Chi-Tung Cheng,  Jinzheng Cai,  Yu-Chao Wang,  Le Lu,  Chun-Nan Yeh,  Chun-Yen Lin,  Wei-Chen Lee,  Ta-Sen Yeh,  <b>Adam P Harrison</b>,  Chien-Hung Liao, 
 venue: 'In the proceedings of HEPATOLOGY'
-citation: ' Wei Teng,  Chi-Tung Cheng,  Jinzheng Cai,  Yu-Chao Wang,  Le Lu,  Chun-Nan Yeh,  Chun-Yen Lin,  Wei-Chen Lee,  Ta-Sen Yeh,  <b>Adam P Harrison</b>,  Chien-Hung Liao, &quot;AUTOMATIC HEPATOCELLULAR CARCINOMA DETECTION IN NON-CONTRAST AND VENOUS COMPUTED TOMOGRAPHY OF CIRRHOTIC PATIENTS-A THREE DIMENSIONAL DEEP LEARNING BASED APPROACH.&quot; In the proceedings of HEPATOLOGY, 2020.'
+citation: ' Wei Teng,  Chi-Tung Cheng,  Jinzheng Cai,  Yu-Chao Wang,  Le Lu,  Chun-Nan Yeh,  Chun-Yen Lin,  Wei-Chen Lee,  Ta-Sen Yeh,  <b>Adam P Harrison</b>,  Chien-Hung Liao, &quot;AUTOMATIC HEPATOCELLULAR CARCINOMA DETECTION IN NON-CONTRAST AND VENOUS COMPUTED TOMOGRAPHY OF CIRRHOTIC PATIENTS-A THREE DIMENSIONAL DEEP LEARNING BASED APPROACH.&quot; <i>In the proceedings of HEPATOLOGY</i>, 2020.'
 ---
 Use [Google Scholar](https://scholar.google.com/scholar?q=AUTOMATIC+HEPATOCELLULAR+CARCINOMA+DETECTION+IN+NON+CONTRAST+AND+VENOUS+COMPUTED+TOMOGRAPHY+OF+CIRRHOTIC+PATIENTS+A+THREE+DIMENSIONAL+DEEP+LEARNING+BASED+APPROACH){:target="_blank"} for full citation

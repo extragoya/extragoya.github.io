@@ -5,6 +5,6 @@ permalink: /publications/2020-01-01-JSSR-A-Joint-Synthesis-Segmentation-and-Regi
 date: 2020-01-01
 author:  Fengze Liu,  Jingzheng Cai,  Yuankai Huo,  Le Lu,  <b>Adam P Harrison</b>, 
 venue: 'arXiv preprint arXiv:2005.12209'
-citation: ' Fengze Liu,  Jingzheng Cai,  Yuankai Huo,  Le Lu,  <b>Adam P Harrison</b>, &quot;JSSR: A Joint Synthesis, Segmentation, and Registration System for 3D Multi-Modal Image Alignment of Large-scale Pathological CT Scans.&quot; arXiv preprint arXiv:2005.12209, 2020.'
+citation: ' Fengze Liu,  Jingzheng Cai,  Yuankai Huo,  Le Lu,  <b>Adam P Harrison</b>, &quot;JSSR: A Joint Synthesis, Segmentation, and Registration System for 3D Multi-Modal Image Alignment of Large-scale Pathological CT Scans.&quot; <i>arXiv preprint arXiv:2005.12209</i>, 2020.'
 ---
 Use [Google Scholar](https://scholar.google.com/scholar?q=JSSR:+A+Joint+Synthesis,+Segmentation,+and+Registration+System+for+3D+Multi+Modal+Image+Alignment+of+Large+scale+Pathological+CT+Scans){:target="_blank"} for full citation
