@@ -3,6 +3,7 @@ title: "High Performance Rearrangement and Multiplication Routines for Sparse Te
 collection: publications
 permalink: /publications/2018-01-01-High-Performance-Rearrangement-and-Multiplication-Routines-for-Sparse-Tensor-Arithmetic
 date: 2018-01-01
+author:  <b>Adam P Harrison</b>,  Dileepan Joseph, 
 venue: 'SIAM Journal on Scientific Computing'
 citation: ' <b>Adam P Harrison</b>,  Dileepan Joseph, &quot;High Performance Rearrangement and Multiplication Routines for Sparse Tensor Arithmetic.&quot; SIAM Journal on Scientific Computing, 2018.'
 ---

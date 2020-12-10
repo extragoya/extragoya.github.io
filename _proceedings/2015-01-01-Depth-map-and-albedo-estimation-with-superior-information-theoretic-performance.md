@@ -3,6 +3,7 @@ title: "Depth-map and albedo estimation with superior information-theoretic perf
 collection: publications
 permalink: /proceedings/2015-01-01-Depth-map-and-albedo-estimation-with-superior-information-theoretic-performance
 date: 2015-01-01
+author:  <b>Adam P Harrison</b>,  Dileepan Joseph, 
 venue: 'In the proceedings of Image Processing: Machine Vision Applications VIII'
 citation: ' <b>Adam P Harrison</b>,  Dileepan Joseph, &quot;Depth-map and albedo estimation with superior information-theoretic performance.&quot; In the proceedings of Image Processing: Machine Vision Applications VIII, 2015.'
 ---

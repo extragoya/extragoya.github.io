@@ -3,6 +3,7 @@ title: "Deep hierarchical multi-label classification of chest X-ray images"
 collection: publications
 permalink: /proceedings/2019-01-01-Deep-hierarchical-multi-label-classification-of-chest-X-ray-images
 date: 2019-01-01
+author:  Haomin Chen,  Shun Miao,  Daguang Xu,  Gregory D Hager,  <b>Adam P Harrison</b>, 
 venue: 'In the proceedings of International Conference on Medical Imaging with Deep Learning'
 citation: ' Haomin Chen,  Shun Miao,  Daguang Xu,  Gregory D Hager,  <b>Adam P Harrison</b>, &quot;Deep hierarchical multi-label classification of chest X-ray images.&quot; In the proceedings of International Conference on Medical Imaging with Deep Learning, 2019.'
 ---

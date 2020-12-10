@@ -3,6 +3,7 @@ title: "Attention-guided curriculum learning for weakly supervised classificatio
 collection: publications
 permalink: /proceedings/2018-01-01-Attention-guided-curriculum-learning-for-weakly-supervised-classification-and-localization-of-thoracic-diseases-on-chest-radiographs
 date: 2018-01-01
+author:  Yuxing Tang,  Xiaosong Wang,  <b>Adam P Harrison</b>,  Le Lu,  Jing Xiao,  Ronald M Summers, 
 venue: 'In the proceedings of International Workshop on Machine Learning in Medical Imaging'
 citation: ' Yuxing Tang,  Xiaosong Wang,  <b>Adam P Harrison</b>,  Le Lu,  Jing Xiao,  Ronald M Summers, &quot;Attention-guided curriculum learning for weakly supervised classification and localization of thoracic diseases on chest radiographs.&quot; In the proceedings of International Workshop on Machine Learning in Medical Imaging, 2018.'
 ---

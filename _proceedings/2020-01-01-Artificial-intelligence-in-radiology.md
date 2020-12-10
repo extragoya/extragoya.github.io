@@ -3,6 +3,7 @@ title: "Artificial intelligence in radiology"
 collection: publications
 permalink: /proceedings/2020-01-01-Artificial-intelligence-in-radiology
 date: 2020-01-01
+author:  Dakai Jin,  <b>Adam P Harrison</b>,  Ling Zhang,  Ke Yan,  Yirui Wang,  Jinzheng Cai,  Shun Miao,  Le Lu, 
 venue: 'In the proceedings of Artificial Intelligence in Medicine'
 citation: ' Dakai Jin,  <b>Adam P Harrison</b>,  Ling Zhang,  Ke Yan,  Yirui Wang,  Jinzheng Cai,  Shun Miao,  Le Lu, &quot;Artificial intelligence in radiology.&quot; In the proceedings of Artificial Intelligence in Medicine, 2020.'
 ---

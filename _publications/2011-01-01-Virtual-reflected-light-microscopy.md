@@ -3,6 +3,7 @@ title: "Virtual reflected-light microscopy"
 collection: publications
 permalink: /publications/2011-01-01-Virtual-reflected-light-microscopy
 date: 2011-01-01
+author:  <b>Adam P Harrison</b>,  Cindy M Wong,  Dileepan Joseph, 
 venue: 'Journal of Microscopy'
 citation: ' <b>Adam P Harrison</b>,  Cindy M Wong,  Dileepan Joseph, &quot;Virtual reflected-light microscopy.&quot; Journal of Microscopy, 2011.'
 ---
