@@ -129,10 +129,10 @@ for pubsource in publist:
                     middle = author.middle_names[0]
                 if author.first_names[0] == 'Adam' and author.last_names[0] == 'Harrison':
                     if middle != "":
-                        citation = citation+" <b>"+author.first_names[0]+" "+middle+" "+author.last_names[0]+"<b>, "
+                        citation = citation+" <b>"+author.first_names[0]+" "+middle+" "+author.last_names[0]+"<\b>, "
                     else:
 
-                        citation = citation+" <b>"+author.first_names[0]+" "+author.last_names[0]+"<b>, "
+                        citation = citation+" <b>"+author.first_names[0]+" "+author.last_names[0]+"<\b>, "
                 else:
                     if middle != "": 
                         citation = citation+" "+author.first_names[0]+" "+middle+" "+author.last_names[0]+", "
