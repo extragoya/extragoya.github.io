@@ -2,7 +2,7 @@
 title: "Progressive and multi-path holistically nested neural networks for pathological lung segmentation from CT images"
 collection: publications
 permalink: /proceedings/2017-01-01-Progressive-and-multi-path-holistically-nested-neural-networks-for-pathological-lung-segmentation-from-CT-images
-date: 2017
+date: 2017-01-01
 venue: 'In the proceedings of International conference on medical image computing and computer-assisted intervention'
 citation: ' <b>Adam P Harrison</b>,  Ziyue Xu,  Kevin George,  Le Lu,  Ronald M Summers,  Daniel J Mollura, &quot;Progressive and multi-path holistically nested neural networks for pathological lung segmentation from CT images.&quot; In the proceedings of International conference on medical image computing and computer-assisted intervention, 2017.'
 ---
