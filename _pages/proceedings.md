@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Conference Proceedings"
-permalink: /conference_proceedings/
+permalink: /proceedings/
 author_profile: true
 ---
 
@@ -11,6 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.conference_proceedings reversed %}
+{% for post in site.proceedings reversed %}
   {% include archive-single.html %}
 {% endfor %}

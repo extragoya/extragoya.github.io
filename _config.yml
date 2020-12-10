@@ -181,7 +181,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  conference_proceedings:
+  proceedings:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -230,10 +230,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _conference_proceedings
+  # _proceedings
   - scope:
       path: ""
-      type: conference_proceedings
+      type: proceedings
     values:
       layout: single
       author_profile: true
