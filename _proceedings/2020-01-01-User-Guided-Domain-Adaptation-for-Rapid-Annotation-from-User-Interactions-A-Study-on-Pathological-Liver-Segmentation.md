@@ -2,7 +2,7 @@
 title: "User-Guided Domain Adaptation for Rapid Annotation from User Interactions: A Study on Pathological Liver Segmentation"
 collection: publications
 permalink: /proceedings/2020-01-01-User-Guided-Domain-Adaptation-for-Rapid-Annotation-from-User-Interactions-A-Study-on-Pathological-Liver-Segmentation
-date: 2020-01-01
+date: 2020
 venue: 'In the proceedings of International Conference on Medical Image Computing and Computer-Assisted Intervention'
 citation: ' Ashwin Raju,  Zhanghexuan Ji,  Chi Tung Cheng,  Jinzheng Cai,  Junzhou Huang,  Jing Xiao,  Le Lu,  ChienHung Liao,  <b>Adam P Harrison</b>, &quot;User-Guided Domain Adaptation for Rapid Annotation from User Interactions: A Study on Pathological Liver Segmentation.&quot; In the proceedings of International Conference on Medical Image Computing and Computer-Assisted Intervention, 2020.'
 ---

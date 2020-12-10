@@ -2,7 +2,7 @@
 title: "Feasibility of computer-aided identification of foraminiferal tests"
 collection: publications
 permalink: /publications/2009-01-01-Feasibility-of-computer-aided-identification-of-foraminiferal-tests
-date: 2009-01-01
+date: 2009
 venue: 'Marine Micropaleontology'
 citation: ' Kamal Ranaweera,  <b>Adam P Harrison</b>,  Santo Bains,  Dileepan Joseph, &quot;Feasibility of computer-aided identification of foraminiferal tests.&quot; Marine Micropaleontology, 2009.'
 ---

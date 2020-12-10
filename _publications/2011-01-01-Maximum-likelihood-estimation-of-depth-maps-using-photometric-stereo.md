@@ -2,7 +2,7 @@
 title: "Maximum likelihood estimation of depth maps using photometric stereo"
 collection: publications
 permalink: /publications/2011-01-01-Maximum-likelihood-estimation-of-depth-maps-using-photometric-stereo
-date: 2011-01-01
+date: 2011
 venue: 'IEEE Transactions on Pattern Analysis and Machine Intelligence'
 citation: ' <b>Adam P Harrison</b>,  Dileepan Joseph, &quot;Maximum likelihood estimation of depth maps using photometric stereo.&quot; IEEE Transactions on Pattern Analysis and Machine Intelligence, 2011.'
 ---
