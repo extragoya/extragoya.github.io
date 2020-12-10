@@ -139,6 +139,8 @@ for pubsource in publist:
                     else:
 
                         citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+
+            author = citation
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
 
@@ -165,6 +167,7 @@ for pubsource in publist:
 
             md += "\ndate: " + str(pub_date) 
 
+            md += "\nauthor: " + str(author) 
             md += "\nvenue: '" + html_escape(venue) + "'"
             
             url = False

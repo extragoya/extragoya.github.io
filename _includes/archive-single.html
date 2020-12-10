@@ -33,6 +33,10 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
+
+
+    {% if post.author %}
+      <p>{{ post.citation }} </p>
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
@@ -52,13 +56,13 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
-    {% endif %}
+    <!--{% if post.citation and post.paperurl %}-->
+      <!--<p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>-->
+    <!--{% elsif post.citation %}-->
+      <!--<p>Recommended citation: {{ post.citation }} </p>-->
+    <!--{% elsif post.paperurl %}-->
+      <!--<p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>-->
+    <!--{% endif %}-->
 
   </article>
 </div>
