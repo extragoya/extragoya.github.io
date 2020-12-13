@@ -49,6 +49,7 @@ publist = {
     "journal":{
         "file": "all.bibtex",
         "venuekey" : "journal",
+        "type": "article",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
                         "permalink":"/publications/",
@@ -58,6 +59,7 @@ publist = {
     "proceeding": {
         "file" : "all.bibtex",
         "venuekey": "booktitle",
+        "type": "inproceedings",
         "venue-pretext": "In the proceedings of ",
         "collection" : {"name":"publications",
                         "permalink":"/proceedings/",
@@ -79,8 +81,15 @@ def html_escape(text):
 
 
 for pubsource in publist:
+
+
+    save_path = publist[pubsource]["collection"]["save_path"]
     parser = bibtex.Parser()
     bibdata = parser.parse_file(publist[pubsource]["file"])
+    filelist = [f for f in os.listdir("../" + save_path)]
+    for f in filelist:
+        os.remove(os.path.join("../" + save_path, f))
+
 
     #loop through the individual references in a given bibtex file
     for bib_id in bibdata.entries:
@@ -90,7 +99,8 @@ for pubsource in publist:
         pub_day = "01"
         
         b = bibdata.entries[bib_id].fields
-        
+        if bibdata.entries[bib_id].type != publist[pubsource]['type']:
+            continue
         try:
             pub_year = f'{b["year"]}'
 
@@ -158,7 +168,6 @@ for pubsource in publist:
 
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
            
-            save_path = publist[pubsource]["collection"]["save_path"]
             note = False
             if "note" in b.keys():
                 if len(str(b["note"])) > 5:
