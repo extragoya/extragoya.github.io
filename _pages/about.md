@@ -9,7 +9,12 @@ redirect_from:
 ---
 
 
-I am a medical imaging and machine learning researcher focused on developing better computer-aided diagnosis tools. Since 2019, I have been working as a Staff Scientist at [PAII, Inc](wwww.paii-labs.com), which is directed by [Le Lu](cs.jhu.edu/~lelu). My primary role is as a team lead for three projects related to the liver: (1) ML solutions for liver lesion detection and identification from dynamic contrast CT; (2) ML solutions for liver lesion detection and identification from multi-sequence MRI; and (3) ML solutions to quantitatively assess fatty liver and liver fibrosis from 2D ultrasound. I work with incredibly talented colleagues in the US, mainland China, and Taiwan. 
+I am a medical imaging and machine learning researcher focused on developing better computer-aided diagnosis tools. Since 2019, I have been working as a Staff Scientist at [PAII, Inc](wwww.paii-labs.com), which is directed by [Le Lu](cs.jhu.edu/~lelu). My primary role is as a team lead for three projects related to the liver: 
+  * ML solutions for liver lesion detection and identification from dynamic contrast CT 
+  * ML solutions for liver lesion detection and identification from multi-sequence MRI
+  * ML solutions to quantitatively assess fatty liver and liver fibrosis from 2D ultrasound. 
+  
+I work with incredibly talented colleagues in the US, mainland China, and Taiwan. 
 
 
 
