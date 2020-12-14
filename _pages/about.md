@@ -12,45 +12,25 @@ redirect_from:
 I am a medical imaging and machine learning researcher focused on developing better computer-aided diagnosis tools. Since 2019, I have been working as a Staff Scientist at [PAII, Inc](wwww.paii-labs.com), which is directed by [Le Lu](cs.jhu.edu/~lelu). My primary role is as a team lead for three projects related to the liver: (1) ML solutions for liver lesion detection and identification from dynamic contrast CT; (2) ML solutions for liver lesion detection and identification from multi-sequence MRI; and (3) ML solutions to quantitatively assess fatty liver and liver fibrosis from 2D ultrasound. I work with incredibly talented colleagues in the US, mainland China, and Taiwan. 
 
 
-Prior work
+
+
+Education/Bio
 ======
 
-After my PhD, I joined the [Center for Infectious Disease Imaging]()
+I completed my undergraduate degree at the [University of Guelph](https://www.uoguelph.ca/) in Systems and Computing Engineering. Afterwards I worked at a static code analysis company called Klocwork, based in Ottawa, and also volunteered for [Canada World Youth](https://canadaworldyouth.org/) for several months in Ukraine. 
 
-Before working at PAII, Inc I was an Applied Research Scientist at [NVIDIA's](www.nvidia.com) deep learning for medical imaging research group. 
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I entered graduate studies at the [University of Alberta](https://www.ualberta.ca/index.html) at the Department of [Electical and Computer Engineering](https://www.ualberta.ca/engineering/electrical-computer-engineering/index.html), completing my MSc under the supervision of [Dileepan Joseph](https://sites.google.com/a/ualberta.ca/djoseph/). There, I researched computer vision solutions for microfossil identification, which garnered three publications, including an article in [IEEE TPAMI](https://extragoya.github.io/publications/2011-01-01-Maximum-likelihood-estimation-of-depth-maps-using-photometric-stereo). I was supported by an [NSERC Canada Gradudate Scholarship - Master's program](https://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSM-BESCM_eng.asp) scholarship throughout my studies. 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+After taking time off to travel, I then entered a doctoral program, again at the University of Alberta and under the supervision of Dileepan Joseph. There, I developed an algebra and computational routines to support the multi-dimensional operations commonly encountered in imaging processing, computer vision, and many other fields. In my thesis [Numeric Tensor Framework: Toward a New Paradigm in Technical Computing](https://era.library.ualberta.ca/items/bbd2bc24-91f0-4bbe-b4c1-fbc29b3eaab4), I argued that matrix/vector formalism and computations represent the current paradigm in technical computing, which is currently stressed by anomalies that can be addressed by numeric tensor algebra and computations. This resulted in a C++/MATLAB toolbox called [LibNT/NTToolbox](https://github.com/extragoya/LibNT). My work was supported by an [NSERC Canada Graduate Scholarship - Doctoral Program](https://www.nserc-crsng.gc.ca/Students-Etudiants/PG-CS/CGSD-BESCD_eng.asp) and an [Izaak Walton Killam Memorial Scholarship](https://www.ualberta.ca/graduate-studies/awards-and-funding/scholarships/killam.html), which is the most prestigious scholarship awarded by the University of Alberta. My thesis won the best thesis award in the department of Electrical and Computer Engineering for that year. 
 
-Getting started
+
+Prior Work
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+After my PhD, I joined the [Center for Infectious Disease Imaging](https://clinicalcenter.nih.gov/drd/cidi.html) at the [National Insitutes of Health Clinical Center](https://clinicalcenter.nih.gov/) as a post-doctoral fellow. Later on, I held a cross-appointment with the [Imaging Biomarkers and Computer-Aided Diagnosis Laboratory](https://irp.nih.gov/pi/ronald-summers), which is led by Dr. Ronald M. Summers. My research was funded, in part, by an [NSERC Post-Doctoral Fellowship](https://www.nserc-crsng.gc.ca/students-etudiants/pd-np/pdf-bp_eng.asp), which is a Canadian national-level scholarship. My work on [lung field segmentation](https://extragoya.github.io/proceedings/2017-01-01-Progressive-and-multi-path-holistically-nested-neural-networks-for-pathological-lung-segmentation-from-CT-images) was short-listed for the MICCAI Young Investigator Award and I won the trainee prize in Physics two years in a row at the RSNA annual general meeting. 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+My first position after my post-doctoral fellowship was at [NVIDIA's](www.nvidia.com), where I joined the deep learning for medical imaging research group as an Applied Research Scientist. There, my role was to develop software for deep learning training and inference that was specialized for medical imaging researchers. That work can be seen as a precurser to NVIDIA's project [MONAI](https://github.com/Project-MONAI/MONAI). 
 
-**Markdown generator**
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
